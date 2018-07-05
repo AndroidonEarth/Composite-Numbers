@@ -2,10 +2,10 @@
 MASM Assembly program to calculate and display composite numbers. Uses the Kip Irvine library for x86 processors.
 
 ## Objectives
-1. Using register indirect addressing.
-2. Passing parameters.
-3. Generating "random" numbers.
-4. Working with arrays.
+1. Designing and implementing procedures.
+2. Designing and implementing loops.
+3. Writing nested loops.
+4. Understanding data validation.
 
 ## Program Description
 - First, the user is instructed to enter the number of composites to be displayed, and is prompted to enter an integer in the range of 1 to 400. 
