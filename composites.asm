@@ -1,7 +1,7 @@
-TITLE Composite Numbers     (Program4.asm)
+TITLE Composite Numbers     (composites.asm)
 
-; Author: Andrew Swaim			swaima@oregonstate.edu
-; CS271-400		Program 4      2/18/2018
+; Author: Andrew Swaim
+; Date: 2/18/2018
 ; Description: A program to calculate composite numbers. First, the user is instructed to enter 
 ;	the number of composites to be displayed, and is prompted to enter an integer in the 
 ;	range [1 .. 400]. The user enters a number, n, and the program verifies that 0 < n < 401. 
