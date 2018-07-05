@@ -7,6 +7,7 @@ MASM Assembly program to calculate and display composite numbers. Uses the Kip I
 3. Generating "random" numbers.
 4. Working with arrays.
 
+## Program Description
 - First, the user is instructed to enter the number of composites to be displayed, and is prompted to enter an integer in the range of 1 to 400. 
 - When the user enters a number, n, the program verifies that 0 < n < 401. 
 - If n is out of range, the user is re-prompted until s/he enters a value in the specified range. 
