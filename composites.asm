@@ -21,8 +21,6 @@ SECOND_PRIME = 3
 
 .data
 program			BYTE	"Composite Numbers	Programmed by Andrew Swaim",0
-ecNote1			BYTE	"**EC1: Output columns are aligned!",0
-ecNote2			BYTE	"**EC3: Saves/checks against discovered prime divisors for better efficiency!",0
 rules1			BYTE	"Enter the number of composite numbers you would like to see.",0
 rules2			BYTE	"I'll accept orders for up to 400 composites.",0
 prompt			BYTE	"Enter the number of composites to display [1 .. 400]: ",0
@@ -62,14 +60,6 @@ main ENDP
 introduction PROC
 ;Display program and author name.
 	mov		edx,OFFSET program
-	call	WriteString
-	call	Crlf
-
-;Indicate extra credit.
-	mov		edx,OFFSET ecNote1
-	call	WriteString
-	call	Crlf
-	mov		edx,OFFSET ecNote2
 	call	WriteString
 	call	Crlf
 	call	Crlf
